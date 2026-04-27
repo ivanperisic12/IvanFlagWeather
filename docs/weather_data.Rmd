@@ -1,0 +1,17 @@
+---
+title: "weather_data"
+output: html_document
+---
+```{r, message=FALSE, warning=FALSE}
+library(ivanfirstpackage)
+library(tidyverse)
+data("Flagstaff_Weather")
+```
+max temp in flagstaff from 2015 - 2019
+
+```{r}
+ggplot(Flagstaff_Weather, aes(x = DATE, y = TMAX)) +
+  geom_line() +
+  labs(title = "Daily Maximum Temperature in Flagstaff", x = "Date", y = "Maximum Temperature")
+```
+
