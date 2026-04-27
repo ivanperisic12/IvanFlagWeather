@@ -7,7 +7,7 @@ library(ivanfirstpackage)
 library(tidyverse)
 data("Flagstaff_Weather")
 ```
-max temp in flagstaff from 2015 - 2019
+max temp in flagstaff from 1950 - 2019
 
 ```{r}
 ggplot(Flagstaff_Weather, aes(x = DATE, y = TMAX)) +
