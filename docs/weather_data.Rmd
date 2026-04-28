@@ -3,7 +3,7 @@ title: "weather_data"
 output: html_document
 ---
 ```{r, message=FALSE, warning=FALSE}
-library(ivanfirstpackage)
+library(IvanFlagWeather)
 library(tidyverse)
 data("Flagstaff_Weather")
 ```
