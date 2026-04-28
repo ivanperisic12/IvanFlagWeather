@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(ivanfirstpackage)
+library(IvanFlagWeather)
 
-test_check("ivanfirstpackage")
+test_check("IvanFlagWeather")
